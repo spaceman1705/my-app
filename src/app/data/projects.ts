@@ -22,12 +22,12 @@ Dibangun dengan Next.js, Tailwind CSS, dan integrasi beberapa library modern, po
 Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web development — mulai dari eksplorasi teknologi baru, hingga realisasi ide menjadi pengalaman yang bisa dirasakan oleh pengguna.
 Bagi saya, setiap baris kode adalah bagian dari cerita, dan website ini adalah salah satu cara saya untuk membagikan cerita itu kepada dunia.
     `,
-    repoUrl: "https://github.com/username/blogplatform",
+    repoUrl: "https://github.com/spaceman1705/my-app",
   },
   {
     title: "Company Profile Website",
     description: "Personal profile website yang saya buat menggunakan NextJS & Tailwind.",
     image: "/project/comingsoonwebp.webp",
-    repoUrl: "https://github.com/username/blogplatform",
+    repoUrl: "https://github.com",
   },
 ];

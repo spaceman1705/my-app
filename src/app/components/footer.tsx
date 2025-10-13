@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -10,14 +10,11 @@ export default function Footer() {
         </p>
 
         <div className="flex gap-6 justify-center">
-            <a href="https://github.com/" target="_blank" className="hover:text-indigo-600 transition-transform duration-200 hover:-translate-y-1">
+            <a href="https://github.com/spaceman1705" target="_blank" className="hover:text-indigo-600 transition-transform duration-200 hover:-translate-y-1">
                 <Github size={22} />
             </a>
-            <a href="https://linkedin.com/" target="_blank" className="hover:text-indigo-600 transition-transform duration-200 hover:-translate-y-1">
+            <a href="https://www.linkedin.com/in/awang-syahsiah/" target="_blank" className="hover:text-indigo-600 transition-transform duration-200 hover:-translate-y-1">
                 <Linkedin size={22} />
-            </a>
-            <a href="mailto:youremail@example.com" className="hover:text-indigo-600 transition-transform duration-200 hover:-translate-y-1">
-                <Mail size={22} />
             </a>
         </div>
       </div>
