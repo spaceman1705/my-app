@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function HeroClass() {
   return (
     <section
@@ -16,7 +17,7 @@ export default function HeroClass() {
             Saya seorang Full Stack Developer
           </p>
         </div>
-        <img
+        <Image
           src="/pp.png"
           alt="Profile"
           className="w-40 sm:w-60 md:w-[300px] object-cover rounded-md mt-6 md:mt-0"

@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/70 backdrop-blur-md shadow-sm z-50">
+    <header className="fixed top-0 left-0 w-full bg-white/95 md:bg-white/70 md:backdrop-blur-md shadow-sm z-50 transition-all duration-300">
       <div className="max-w-6xl mx-auto flex items-center justify-between py-4 px-6">
         <div className="flex items-center gap-3">
           <span className="font-semibold text-2xl">A.S.A</span>
@@ -47,6 +47,15 @@ export default function Navbar() {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
+        <div className="flex justify-end p-4">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="text-gray-700 text-2xl font-bold hover:text-black focus:outline-none"
+            aria-label="Close menu"
+          >
+            X
+          </button>
+    </div>
         <div className="flex flex-col mt-20">
           <Link href="#hero" scroll className="block px-6 py-4 border-b border-gray-200" onClick={() => setIsOpen(false)}>HOME</Link>
           <Link href="#about" scroll className="block px-6 py-4 border-b border-gray-200" onClick={() => setIsOpen(false)}>ABOUT</Link>
