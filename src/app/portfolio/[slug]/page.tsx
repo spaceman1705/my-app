@@ -4,14 +4,13 @@ import { ArrowLeft } from "lucide-react";
 import { notFound } from "next/navigation";
 import { projects } from "@/app/data/projects";
 
-
-export default function ProjectDetailPage({
+export default async function ProjectDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const project = projects.find((p) => p.slug === params.slug);
-
+  const { slug } = await params;
+  const project = projects.find((p) => p.slug === slug);
   if (!project) return notFound();
 
   return (
@@ -41,6 +40,20 @@ export default function ProjectDetailPage({
       <p className="text-gray-500 leading-relaxed whitespace-pre-line">
         {project.details}
       </p>
+
+      {project.deployUrl && (
+        <p className="mt-6 text-gray-700">
+          Link deploy:{" "}
+          <a
+            href={project.deployUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-500 hover:underline break-all"
+          >
+            {project.deployUrl}
+          </a>
+        </p>
+    )}
     </section>
   );
 }
