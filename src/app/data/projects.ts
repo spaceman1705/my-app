@@ -63,6 +63,6 @@ Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web deve
     Selain itu, fitur upload bukti pembayaran dengan batas waktu tertentu diterapkan untuk transaksi manual, termasuk validasi file dan pembatalan otomatis jika pembayaran tidak dilakukan sesuai tenggat waktu. Sistem order tracking memungkinkan user untuk melihat daftar pesanan, melakukan pembatalan sebelum pembayaran, serta mengonfirmasi penerimaan pesanan. Dari sisi admin, tersedia fitur manajemen pesanan seperti konfirmasi pembayaran, pengiriman pesanan, pembatalan pesanan, dan pengembalian stok yang disertai pencatatan riwayat perubahan stok.
     `,
     repoUrl: "https://github.com/adi-adisucipto/final-project",
-    deployUrl: "Comming Soon",
+    deployUrl: "https://final-project-drab-ten.vercel.app/",
   },
 ];
