@@ -11,6 +11,9 @@ Dengan menggabungkan deep learning object detection dan optical character recogn
 Proyek ini menjadi bukti bagaimana AI dan web technology bisa berpadu untuk menghadirkan solusi yang efisien, cerdas, dan bermanfaat langsung bagi lingkungan sekitar.
     `,
     repoUrl: "https://github.com/spaceman1705/tugasakhir",
+    screenshots: ["/project/yolowebp.webp","/project/yolowebp.webp","/project/yolowebp.webp"],
+    tags: ["Python", "YOLO", "Pytesseract", "OpenCV", "Flask"],
+    year: "2024",
   },
   {
     slug: "ppw-platform",
@@ -23,6 +26,9 @@ Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web deve
     `,
     repoUrl: "https://github.com/spaceman1705/my-app",
     deployUrl: "https://my-app-beryl-phi.vercel.app/",
+    screenshots: ["/project/portofwebp.webp","/project/portofwebp.webp","/project/portofwebp.webp"],
+    tags: ["Python", "YOLO", "Pytesseract", "OpenCV", "Flask"],
+    year: "2024",
   },
   {
     slug: "blog-web",
@@ -34,6 +40,9 @@ Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web deve
     `,
     repoUrl: "https://github.com/spaceman1705/my-app-blog",
     deployUrl: "https://my-app-blog-ten.vercel.app/",
+    screenshots: ["/project/blogweb.webp","/project/blogweb.webp","/project/blogweb.webp"],
+    tags: ["Python", "YOLO", "Pytesseract", "OpenCV", "Flask"],
+    year: "2024",
   },
   {
     slug: "eventm-web",
@@ -49,6 +58,9 @@ Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web deve
     `,
     repoUrl: "https://github.com/spaceman1705/mini-project-web",
     deployUrl: "https://mini-project-web-fawn.vercel.app/",
+    screenshots: ["/project/ticketeventweb.webp","/project/ticketeventweb.webp"],
+    tags: ["Python", "YOLO", "Pytesseract", "OpenCV", "Flask"],
+    year: "2024",
   },
   {
     slug: "groceri-web",
@@ -62,7 +74,10 @@ Melalui website ini, saya ingin menunjukkan perjalanan saya dalam dunia web deve
     Pada Feature 3, saya mengembangkan alur transaksi pengguna yang mencakup proses penambahan produk ke dalam shopping cart dengan validasi stok dan status akun, pembaruan jumlah produk, serta penghapusan item dari cart. Saya juga mengimplementasikan proses checkout yang mencakup pembuatan pesanan baru berdasarkan alamat pengiriman, penentuan toko terdekat, pengecekan ketersediaan stok, serta perhitungan total pembayaran.
     Selain itu, fitur upload bukti pembayaran dengan batas waktu tertentu diterapkan untuk transaksi manual, termasuk validasi file dan pembatalan otomatis jika pembayaran tidak dilakukan sesuai tenggat waktu. Sistem order tracking memungkinkan user untuk melihat daftar pesanan, melakukan pembatalan sebelum pembayaran, serta mengonfirmasi penerimaan pesanan. Dari sisi admin, tersedia fitur manajemen pesanan seperti konfirmasi pembayaran, pengiriman pesanan, pembatalan pesanan, dan pengembalian stok yang disertai pencatatan riwayat perubahan stok.
     `,
-    repoUrl: "https://github.com/adi-adisucipto/final-project",
+    repoUrl: "https://github.com/spaceman1705/final-project-ecommerce.git",
     deployUrl: "https://final-project-drab-ten.vercel.app/",
+    screenshots: ["/project/groceria.webp","/project/groceria.webp","/project/groceria.webp"],
+    tags: ["Python", "YOLO", "Pytesseract", "OpenCV", "Flask"],
+    year: "2024",
   },
 ];
