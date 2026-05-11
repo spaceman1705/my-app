@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -114,7 +115,7 @@ export default function About() {
             </div>
 
             <div className="flex gap-3 mt-6 flex-wrap">
-              <a
+              <Link
                 href="/cv.pdf"
                 download
                 className="px-5 py-2.5 rounded-xl font-bold text-sm text-white transition-opacity hover:opacity-80"
@@ -125,8 +126,8 @@ export default function About() {
                 }}
               >
                 Download CV ↓
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#contact"
                 className="px-5 py-2.5 rounded-xl font-semibold text-sm transition-opacity hover:opacity-80"
                 style={{
@@ -137,7 +138,7 @@ export default function About() {
                 }}
               >
                 Hubungi Saya
-              </a>
+              </Link>
             </div>
           </div>
         </div>

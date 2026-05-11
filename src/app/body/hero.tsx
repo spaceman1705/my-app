@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function HeroClass() {
   return (
     <section
@@ -49,7 +51,7 @@ export default function HeroClass() {
         </p>
 
         <div className="flex gap-3 flex-wrap justify-center md:justify-start">
-          <a
+          <Link
             href="/#portfolio"
             className="px-6 py-3 rounded-xl font-bold text-sm text-white transition-opacity hover:opacity-80"
             style={{
@@ -59,8 +61,8 @@ export default function HeroClass() {
             }}
           >
             Lihat Proyek →
-          </a>
-          <a
+          </Link>
+          <Link
             href="/#contact"
             className="px-6 py-3 rounded-xl font-semibold text-sm transition-opacity hover:opacity-80"
             style={{
@@ -71,7 +73,7 @@ export default function HeroClass() {
             }}
           >
             Hubungi Saya
-          </a>
+          </Link>
         </div>
       </div>
     </section>
